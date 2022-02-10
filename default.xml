@@ -5,15 +5,15 @@
 -->
 
 <manifest>
-  <remote fetch="../seL4" name="seL4"/>
-  <remote fetch="../sel4proj" name="sel4proj"/>
+  <remote fetch="https://github.com/seL4" name="seL4"/>
+  <remote fetch="https://github.com/DrewKimball" name="capstone"/>
 
   <default remote="seL4" revision="master"/>
 
-  <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="2a1e115b609a42c489117835ba56ee6d5f502fc5" upstream="master">
+  <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="master" upstream="master">
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
-  <project dest-branch="master" name="seL4-capstone-project.git" path="projects/seL4capstone" revision="master" upstream="master">
+  <project remote="capstone" dest-branch="master" name="Sel4CapstoneProject.git" path="projects/seL4capstone" revision="master" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="b5fe708c886951b590e99e8427e1d465043edf65" upstream="master"/>
