@@ -10,9 +10,6 @@
 
   <default remote="seL4" revision="master"/>
 
-  <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="master" upstream="master">
-    <linkfile dest="README.md" src="docs/index.md"/>
-  </project>
   <project remote="capstone" dest-branch="master" name="Sel4CapstoneProject.git" path="projects/seL4capstone" revision="master" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
