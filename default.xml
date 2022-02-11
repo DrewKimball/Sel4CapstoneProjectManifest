@@ -13,6 +13,9 @@
   <project remote="capstone" dest-branch="master" name="Sel4CapstoneProject.git" path="projects/seL4capstone" revision="master" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="4bc72046d804516ac2eec18981025dc58ff78622" upstream="master" dest-branch="master">
+    <linkfile src="docs/index.md" dest="camkes_README.md"/>
+  </project>
   <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="b5fe708c886951b590e99e8427e1d465043edf65" upstream="master"/>
   <project dest-branch="master" name="global-components.git" path="projects/global-components" revision="bda1560ec68a2d75f6c3e0df7c883d8b360a5c31" upstream="master"/>
   <project dest-branch="sel4" name="musllibc.git" path="projects/musllibc" revision="2af3006b0ccf36ba9ac5123f539d577fd97c5350" upstream="sel4"/>
