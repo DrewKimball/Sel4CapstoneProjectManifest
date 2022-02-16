@@ -11,6 +11,7 @@
   <remote name="nicta" fetch="https://github.com/NICTA"/>
   <remote name="opensbi" fetch="https://github.com/riscv"/>
   <remote name="picotcp" fetch="https://github.com/tass-belgium"/>
+  <remote name="openssl" fetch="https://github.com/openssl"/>
   
   <default remote="seL4" revision="master"/>
   
@@ -40,4 +41,5 @@
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" revision="d935dd05da0cf959e9fd0140af913dc6fdaa0221" upstream="master" dest-branch="master"/>
   <project name="util_libs.git" path="projects/util_libs" revision="b0cedde66a6b5a3ef1bc072f9a08a4e6bd68935c" upstream="master" dest-branch="master"/>
+  <project remote="openssl" name="openssl.git" path="projects/openssl" revision="master" upstream="master" dest-branch="master"/>
 </manifest>
