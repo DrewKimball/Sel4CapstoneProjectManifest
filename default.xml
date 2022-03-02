@@ -13,6 +13,7 @@
   <remote name="picotcp" fetch="https://github.com/tass-belgium"/>
   <remote name="B-Con" fetch="https://github.com/B-Con"/>
   <remote name="andrewkiluk" fetch="https://github.com/andrewkiluk"/>
+  <remote name="eduardsui" fetch="https://github.com/eduardsui"/>
   
   <default remote="seL4" revision="master"/>
   
@@ -44,4 +45,5 @@
   <project name="util_libs.git" path="projects/util_libs" revision="b0cedde66a6b5a3ef1bc072f9a08a4e6bd68935c" upstream="master" dest-branch="master"/>
   <project remote="B-Con" name="crypto-algorithms.git" path="projects/crypto" revision="master" upstream="master" dest-branch="master"/>
   <project remote="andrewkiluk" name="RSA-Library.git" path="projects/rsa" revision="master" upstream="master" dest-branch="master"/>
+  <project remote="eduardsui" name="tlse.git" path="projects/tlse" revision="master" upstream="master" dest-branch="master"/>
 </manifest>
