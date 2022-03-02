@@ -12,7 +12,7 @@
   <remote name="opensbi" fetch="https://github.com/riscv"/>
   <remote name="picotcp" fetch="https://github.com/tass-belgium"/>
   <remote name="kokke" fetch="https://github.com/kokke"/>
-  <remote name="Anthony-Mai" fetch="https://github.com/Anthony-Mai"/>
+  <remote name="apache" fetch="https://github.com/apache"/>
   
   <default remote="seL4" revision="master"/>
   
@@ -43,5 +43,5 @@
   <project name="sel4runtime" path="projects/sel4runtime" revision="d935dd05da0cf959e9fd0140af913dc6fdaa0221" upstream="master" dest-branch="master"/>
   <project name="util_libs.git" path="projects/util_libs" revision="b0cedde66a6b5a3ef1bc072f9a08a4e6bd68935c" upstream="master" dest-branch="master"/>
   <project remote="kokke" name="tiny-AES-c.git" path="projects/aes" revision="master" upstream="master" dest-branch="master"/>
-  <project remote="Anthony-Mai" name="TinyTls.git" path="projects/tls" revision="b16274e61f0d2a90da0fdd54729446149fdf6467" dest-branch="master"/>
+  <project remote="apache" name="incubator-milagro-crypto-c.git" path="projects/crypto" revision="master" upstream="master" dest-branch="master"/>
 </manifest>
